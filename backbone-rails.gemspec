@@ -2,7 +2,7 @@
 # project in your rails apps through git.
 Gem::Specification.new do |s|
   s.name = "rails-backbone"
-  s.version = "0.7.2"
+  s.version = "0.7.3"
   s.authors     = ["Ryan Fitzgerald", "Code Brew Studios"]
   s.email       = ["ryan@codebrewstudios.com"]
   s.homepage    = "http://github.com/codebrew/backbone-rails"
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   
   s.add_dependency('railties', '>= 3.1.0')
   s.add_dependency('coffee-script', '~> 2.2.0')
-  s.add_dependency('ejs', '~> 1.0.0')
+  s.add_dependency('ejs', '~> 1.1.0')
   
   s.require_paths = ['lib']
 end
